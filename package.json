@@ -1,0 +1,25 @@
+{
+  "name": "@andspark/utils",
+  "version": "1.0.0",
+  "description": "存储个人常用的工具函数",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "release": "tsc && npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndSpark/utils.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndSpark/utils/issues"
+  },
+  "homepage": "https://github.com/AndSpark/utils#readme",
+  "devDependencies": {
+    "typescript": "^4.3.2"
+  }
+}
