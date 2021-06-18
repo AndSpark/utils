@@ -1,12 +1,8 @@
-import {
-	localGet,
-	localSet,
-	localRemove,
-} from './src/index'
+export { localGet, localSet, localRemove } from './src/local-storage'
 
+export { loadingBar } from './src/loading-bar'
 
-export {
-	localGet,
-	localSet,
-	localRemove,
-}
+export { Throttle, Debounced } from './src/throttle+debounce'
+
+export { sleep } from './src/sleep'
+
